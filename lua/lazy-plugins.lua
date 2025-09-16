@@ -7,41 +7,43 @@
 
 require("lazy").setup {
 
-    -- NOTE: Plugins can also be added by using a table,
-    -- with the first argument being the link and the following
-    -- keys can be used to configure plugin behavior/loading/etc.
-    --
-    -- Use `opts = {}` to automatically pass options to a plugin's
-    -- `setup()` function, forcing the plugin to be loaded.
+	-- NOTE: Plugins can also be added by using a table,
+	-- with the first argument being the link and the following
+	-- keys can be used to configure plugin behavior/loading/etc.
+	--
+	-- Use `opts = {}` to automatically pass options to a plugin's
+	-- `setup()` function, forcing the plugin to be loaded.
 
-    -- modular approach: using `require 'path.name'` will
-    -- include a plugin definition from file lua/path/name.lua
+	-- modular approach: using `require 'path.name'` will
+	-- include a plugin definition from file lua/path/name.lua
 
-    require "plugins.barbar",
-    require "plugins.blink-cmp",
-    require "plugins.colorscheme",
-    require "plugins.conform",
-    -- require "plugins.debug",
-    require "plugins.flash",
-    require "plugins.gitsigns",
-    -- require "plugins.hop",
-    require "plugins.icons",
-    -- require "plugins.lint",
-    require "plugins.lspconfig",
-    require "plugins.mini-ai",
-    require "plugins.mini-cursorword",
-    require "plugins.mini-indentscope",
-    require "plugins.mini-move",
-    require "plugins.mini-pairs",
-    require "plugins.mini-statusline",
-    require "plugins.neo-tree",
-    require "plugins.noice",
-    -- require "plugins.oil",
-    require "plugins.persistence",
-    require "plugins.snacks-dashboard",
-    -- require "plugins.snacks-explorer",
-    require "plugins.telescope",
-    require "plugins.todo-comments",
-    require "plugins.treesitter",
-    require "plugins.which-key",
+	-- require "plugins.barbar",
+	require "plugins.blink-cmp",
+	-- require "plugins.buffer-manager",
+	-- require "plugins.bufferline",
+	require "plugins.colorscheme",
+	require "plugins.conform",
+	-- require "plugins.debug",
+	require "plugins.flash",
+	require "plugins.gitsigns",
+	-- require "plugins.hop",
+	require "plugins.icons",
+	-- require "plugins.lint",
+	require "plugins.lspconfig",
+	require "plugins.marks",
+	require "plugins.mini",
+	require "plugins.multicursors",
+	require "plugins.neo-tree",
+	require "plugins.no-neck-pain",
+	require "plugins.noice",
+	require "plugins.obsidian",
+	-- require "plugins.oil",
+	require "plugins.persistence",
+	-- require "plugins.precognition",
+	require "plugins.snacks-dashboard",
+	-- require "plugins.snacks-explorer",
+	require "plugins.telescope",
+	require "plugins.todo-comments",
+	require "plugins.treesitter",
+	require "plugins.which-key",
 }
